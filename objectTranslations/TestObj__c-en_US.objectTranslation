@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>TestObj</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>TestObjs</value>
+    </caseValues>
+    <fields>
+        <label><!-- Agent Email --></label>
+        <name>Agent_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Agent__c</name>
+        <relationshipLabel><!-- TestObjs --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
