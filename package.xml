@@ -78,6 +78,7 @@
         <members>Opportunity.MainCompetitors__c</members>
         <members>Opportunity.OrderNumber__c</members>
         <members>Opportunity.TrackingNumber__c</members>
+        <members>TestSunrun__c.SunRunCheckBox__c</members>
         <members>Test_DataLoader__c.testField2__c</members>
         <members>Test_DataLoader__c.tf1__c</members>
         <name>CustomField</name>
