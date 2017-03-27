@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ObjectForLily</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>ObjectsForLily</value>
+    </caseValues>
+    <fields>
+        <label><!-- TestTextField --></label>
+        <name>TestTextField__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Illumina</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Illuminas</value>
+    </caseValues>
+    <fields>
+        <label><!-- Case_RSInc1 --></label>
+        <name>Case_RSInc1__c</name>
+        <relationshipLabel><!-- Illumina --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- IlmnTextField_RSInc23 --></label>
+        <name>IlmnTextField_RSInc23__c</name>
+    </fields>
+    <fields>
+        <label><!-- IlmnTextField_RSInc24 --></label>
+        <name>IlmnTextField_RSInc24__c</name>
+    </fields>
+    <fields>
+        <label><!-- PicklistDemo --></label>
+        <name>PicklistDemo__c</name>
+        <picklistValues>
+            <masterLabel>Value1</masterLabel>
+            <translation><!-- Value1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Value2</masterLabel>
+            <translation><!-- Value2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Value3</masterLabel>
+            <translation><!-- Value3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Value4</masterLabel>
+            <translation><!-- Value4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Value5</masterLabel>
+            <translation><!-- Value5 --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Cannot be blank --></errorMessage>
+        <name>IlmnValidationRule2_RSInc2</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Cannot be blank --></errorMessage>
+        <name>IlmnValidationRule_RSInc2</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Cannot be blank --></errorMessage>
+        <name>IlmnValidationRule_RSInc24</name>
+    </validationRules>
+</CustomObjectTranslation>
