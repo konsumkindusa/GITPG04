@@ -5,7 +5,12 @@
         <members>A0</members>
         <members>LREngine</members>
         <members>Test</members>
+        <members>sampleClass</members>
         <name>ApexClass</name>
+    </types>
+    <types>
+        <members>SampleTrigger</members>
+        <name>ApexTrigger</name>
     </types>
     <types>
         <members>AppSwitcher</members>
