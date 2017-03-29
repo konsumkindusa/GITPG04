@@ -2,11 +2,15 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>39.0</version>
     <types>
-        <members>ARApexACclass2</members>
-        <members>ARApexClass1</members>
-        <members>ARApexclass117</members>
-        <members>ARApexclass13</members>
+        <members>A0</members>
+        <members>LREngine</members>
+        <members>Test</members>
+        <members>sampleClass</members>
         <name>ApexClass</name>
+    </types>
+    <types>
+        <members>SampleTrigger</members>
+        <name>ApexTrigger</name>
     </types>
     <types>
         <members>AppSwitcher</members>
