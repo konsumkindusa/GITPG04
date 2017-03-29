@@ -8,4 +8,11 @@
         <value>goal 1
 goal 2</value>
     </labels>
+    <labels>
+        <fullName>SR_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SR Label</shortDescription>
+        <value>This is test label</value>
+    </labels>
 </CustomLabels>

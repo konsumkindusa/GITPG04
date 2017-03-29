@@ -85,6 +85,7 @@
     </types>
     <types>
         <members>Goal_setting</members>
+        <members>SR_Label</members>
         <name>CustomLabel</name>
     </types>
     <types>
