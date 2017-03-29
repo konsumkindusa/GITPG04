@@ -299,6 +299,7 @@
     <types>
         <members>Admin</members>
         <members>Admin Clone</members>
+        <members>Admin Clone 2</members>
         <members>Analytics Cloud Integration User</members>
         <members>Analytics Cloud Security User</members>
         <members>Authenticated Website</members>
