@@ -1,20 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <version>39.0</version>
     <types>
+        <members>A0</members>
         <members>ARApexACclass2</members>
-        <members>ARApexClass1</members>
         <members>ARApexclass117</members>
         <members>ARApexclass13</members>
+        <members>ARApexclass15</members>
+        <members>ARApexclass31</members>
+        <members>LREngine</members>
+        <members>MerckApex1</members>
+        <members>MerckApex2</members>
+        <members>MerckApex3</members>
+        <members>MerckApexTest1</members>
+        <members>MerckApexTest2</members>
+        <members>Test</members>
+        <members>sampleClass</members>
         <name>ApexClass</name>
+    </types>
+    <types>
+        <members>SampleTrigger</members>
+        <members>Todd_CopyToAccount</members>
+        <members>updateQuoteStatus</members>
+        <name>ApexTrigger</name>
     </types>
     <types>
         <members>AppSwitcher</members>
         <members>Salesforce1</members>
         <name>AppMenu</name>
-    </types>
-    <types>
-        <members>AR_CustomObject1__c.AR_ApprovalProcess1</members>
-        <name>ApprovalProcess</name>
     </types>
     <types>
         <members>Case.Standard</members>
@@ -53,51 +66,46 @@
         <name>CustomApplication</name>
     </types>
     <types>
-        <members>AR_CustomObject1__c.AR_CustomField1__c</members>
-        <members>AR_CustomObject1__c.AR_Custom_Field3__c</members>
         <members>Account.Active__c</members>
-        <members>Account.Agent_Email__c</members>
         <members>Account.AutorabitExtId__c</members>
         <members>Account.CustomerPriority__c</members>
-        <members>Account.Is_Zen_Real__c</members>
         <members>Account.NumberofLocations__c</members>
         <members>Account.SLAExpirationDate__c</members>
         <members>Account.SLASerialNumber__c</members>
         <members>Account.SLA__c</members>
         <members>Account.UpsellOpportunity__c</members>
+        <members>Account_Settings__mdt.Md_Email__c</members>
         <members>Case.AutorabitExtId__c</members>
         <members>Case.EngineeringReqNumber__c</members>
         <members>Case.PotentialLiability__c</members>
         <members>Case.Product__c</members>
         <members>Case.SLAViolation__c</members>
-        <members>Configure_Document_Share__c.Active__c</members>
         <members>Contact.AutorabitExtId__c</members>
         <members>Contact.Languages__c</members>
         <members>Contact.Level__c</members>
         <members>Goal.OrigGoalId__c</members>
-        <members>Lead.AutorabitExtId__c</members>
         <members>Lead.CurrentGenerators__c</members>
         <members>Lead.NumberofLocations__c</members>
         <members>Lead.Primary__c</members>
         <members>Lead.ProductInterest__c</members>
         <members>Lead.SICCode__c</members>
+        <members>Merck__c.Merck_Picklist__c</members>
         <members>Metric.OrigMetricId__c</members>
-        <members>Opportunity.AutorabitExtId__c</members>
-        <members>Opportunity.Bill_To_Contact__c</members>
-        <members>Opportunity.Bill_To__c</members>
         <members>Opportunity.CurrentGenerators__c</members>
         <members>Opportunity.DeliveryInstallationStatus__c</members>
         <members>Opportunity.MainCompetitors__c</members>
         <members>Opportunity.OrderNumber__c</members>
         <members>Opportunity.TrackingNumber__c</members>
-        <members>TestObj__c.Agent_Email__c</members>
-        <members>TestObj__c.Agent__c</members>
-        <members>Test__c.FieldTest__c</members>
-        <members>User.AutorabitExtId__c</members>
+        <members>TestSunrun__c.SunRunCheckBox__c</members>
+        <members>Test_DataLoader__c.testField2__c</members>
+        <members>Test_DataLoader__c.tf1__c</members>
         <name>CustomField</name>
     </types>
     <types>
-        <members>AR_CustomLabel1</members>
+        <members>ARSF_Customlabel1</members>
+        <members>ARclabel3</members>
+        <members>Goal_setting</members>
+        <members>SR_Label</members>
         <name>CustomLabel</name>
     </types>
     <types>
@@ -105,19 +113,17 @@
         <name>CustomLabels</name>
     </types>
     <types>
-        <members>AR_CustomObject1__c</members>
         <members>Account</members>
         <members>AccountCleanInfo</members>
         <members>AccountContactRole</members>
+        <members>Account_Settings__mdt</members>
         <members>Activity</members>
-        <members>Ar_CustomObjectForInt__c</members>
         <members>Asset</members>
         <members>AssistantProgress</members>
         <members>Campaign</members>
         <members>CampaignMember</members>
         <members>Case</members>
         <members>CaseContactRole</members>
-        <members>Configure_Document_Share__c</members>
         <members>Contact</members>
         <members>ContactCleanInfo</members>
         <members>ContentVersion</members>
@@ -137,6 +143,7 @@
         <members>Macro</members>
         <members>MacroAction</members>
         <members>MacroInstruction</members>
+        <members>Merck__c</members>
         <members>Opportunity</members>
         <members>OpportunityCompetitor</members>
         <members>OpportunityContactRole</members>
@@ -147,23 +154,24 @@
         <members>Pricebook2</members>
         <members>PricebookEntry</members>
         <members>Product2</members>
+        <members>SecondSoundExchange__c</members>
         <members>Site</members>
         <members>SocialPersona</members>
         <members>Solution</members>
         <members>StreamingChannel</members>
         <members>Task</members>
-        <members>TestObj__c</members>
-        <members>Test__c</members>
+        <members>TestSunrun__c</members>
+        <members>Test_DataLoader__c</members>
         <members>User</members>
         <members>UserProvisioningRequest</members>
+        <members>tree__c</members>
         <name>CustomObject</name>
     </types>
     <types>
-        <members>AR_CustomObject1__c-en_US</members>
-        <members>Ar_CustomObjectForInt__c-en_US</members>
-        <members>Configure_Document_Share__c-en_US</members>
-        <members>TestObj__c-en_US</members>
-        <members>Test__c-en_US</members>
+        <members>Account_Settings__mdt-en_US</members>
+        <members>SecondSoundExchange__c-en_US</members>
+        <members>Test_DataLoader__c-en_US</members>
+        <members>tree__c-en_US</members>
         <name>CustomObjectTranslation</name>
     </types>
     <types>
@@ -183,13 +191,11 @@
         <name>HomePageLayout</name>
     </types>
     <types>
-        <members>AR_CustomObject1__c-AR-CustomObject1 Layout</members>
-        <members>AR_CustomObject1__c-AR-Layout1</members>
         <members>Account-Account %28Marketing%29 Layout</members>
         <members>Account-Account %28Sales%29 Layout</members>
         <members>Account-Account %28Support%29 Layout</members>
         <members>Account-Account Layout</members>
-        <members>Ar_CustomObjectForInt__c-Ar-CustomObjectForInt Layout</members>
+        <members>Account_Settings__mdt-Account Setting Layout</members>
         <members>Asset-Asset Layout</members>
         <members>Campaign-Campaign Layout</members>
         <members>CampaignMember-Campaign Member Page Layout</members>
@@ -206,6 +212,7 @@
         <members>Contract-Contract Layout</members>
         <members>DandBCompany-D%26B Company Layout</members>
         <members>DuplicateRecordSet-Duplicate Record Set Layout</members>
+        <members>EmailMessage-Email Message Layout</members>
         <members>Event-Event Layout</members>
         <members>FeedItem-Feed Item Layout</members>
         <members>Global-Global Layout</members>
@@ -215,6 +222,7 @@
         <members>Lead-Lead %28Support%29 Layout</members>
         <members>Lead-Lead Layout</members>
         <members>Macro-Macro Layout</members>
+        <members>Merck__c-Merck Layout</members>
         <members>Opportunity-Opportunity %28Marketing%29 Layout</members>
         <members>Opportunity-Opportunity %28Sales%29 Layout</members>
         <members>Opportunity-Opportunity %28Support%29 Layout</members>
@@ -225,14 +233,15 @@
         <members>Pricebook2-Price Book Layout</members>
         <members>PricebookEntry-Price Book Entry Layout</members>
         <members>Product2-Product Layout</members>
+        <members>SecondSoundExchange__c-SecondSoundExchange Layout</members>
         <members>Solution-Solution Layout</members>
         <members>Task-Task Layout</members>
-        <members>TestObj__c-TestObj Layout</members>
-        <members>Test__c-Test Layout</members>
+        <members>TestSunrun__c-TestSunrun Layout</members>
         <members>User-User Layout</members>
         <members>UserProvAccount-User Provisioning Account Layout</members>
         <members>UserProvisioningLog-User Provisioning Log Layout</members>
         <members>UserProvisioningRequest-User Provisioning Request Layout</members>
+        <members>tree__c-tree Layout</members>
         <name>Layout</name>
     </types>
     <types>
@@ -305,8 +314,9 @@
         <name>MatchingRules</name>
     </types>
     <types>
-        <members>AR-Profile1</members>
         <members>Admin</members>
+        <members>Admin Clone</members>
+        <members>Admin Clone 2</members>
         <members>Analytics Cloud Integration User</members>
         <members>Analytics Cloud Security User</members>
         <members>Authenticated Website</members>
@@ -337,13 +347,10 @@
         <members>Partner Community User</members>
         <members>PlatformPortal</members>
         <members>ReadOnly</members>
-        <members>Sales Rep</members>
-        <members>Sales Rep Clone</members>
         <members>Silver Partner User</members>
         <members>SolutionManager</members>
         <members>Standard</members>
         <members>StandardAul</members>
-        <members>SysAdminCopy</members>
         <members>Work%2Ecom Only User</members>
         <name>Profile</name>
     </types>
@@ -406,6 +413,34 @@
         <members>VPNorthAmericanSales</members>
         <members>WesternSalesTeam</members>
         <name>Role</name>
+    </types>
+    <types>
+        <members>Account</members>
+        <members>Activities</members>
+        <members>Address</members>
+        <members>BusinessHours</members>
+        <members>Case</members>
+        <members>Company</members>
+        <members>Contract</members>
+        <members>Entitlement</members>
+        <members>FileUploadAndDownloadSecurity</members>
+        <members>Forecasting</members>
+        <members>Ideas</members>
+        <members>Knowledge</members>
+        <members>LiveAgent</members>
+        <members>Macro</members>
+        <members>Mobile</members>
+        <members>Name</members>
+        <members>Opportunity</members>
+        <members>Order</members>
+        <members>OrgPreference</members>
+        <members>PathAssistant</members>
+        <members>PersonalJourney</members>
+        <members>Product</members>
+        <members>Quote</members>
+        <members>Search</members>
+        <members>Security</members>
+        <name>Settings</name>
     </types>
     <types>
         <members>AccountContactMultiRoles</members>
@@ -474,38 +509,4 @@
         <members>Opportunity.DeliveryStatus</members>
         <name>WebLink</name>
     </types>
-    <types>
-        <members>AR_CustomObject1__c.AR-WorkFlow1</members>
-        <name>WorkflowRule</name>
-    </types>
-    <types>
-        <members>Account</members>
-        <members>Activities</members>
-        <members>Address</members>
-        <members>BusinessHours</members>
-        <members>Case</members>
-        <members>ChatterAnswers</members>
-        <members>Company</members>
-        <members>Contract</members>
-        <members>Entitlement</members>
-        <members>FileUploadAndDownloadSecurity</members>
-        <members>Forecasting</members>
-        <members>Ideas</members>
-        <members>Knowledge</members>
-        <members>LiveAgent</members>
-        <members>Macro</members>
-        <members>Mobile</members>
-        <members>Name</members>
-        <members>Opportunity</members>
-        <members>Order</members>
-        <members>OrgPreference</members>
-        <members>PathAssistant</members>
-        <members>PersonalJourney</members>
-        <members>Product</members>
-        <members>Quote</members>
-        <members>Search</members>
-        <members>Security</members>
-        <name>Settings</name>
-    </types>
-    <version>39.0</version>
 </Package>

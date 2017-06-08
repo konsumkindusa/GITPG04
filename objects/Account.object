@@ -100,15 +100,6 @@
         </valueSet>
     </fields>
     <fields>
-        <fullName>Agent_Email__c</fullName>
-        <externalId>false</externalId>
-        <label>Agent Email</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Email</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
         <fullName>AnnualRevenue</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -180,16 +171,6 @@
         <fullName>Industry</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
-    </fields>
-    <fields>
-        <fullName>Is_Zen_Real__c</fullName>
-        <defaultValue>false</defaultValue>
-        <description>Just a fancy looking checkbox</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Are we all connected?</inlineHelpText>
-        <label>Is Zen Real?</label>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>Jigsaw</fullName>

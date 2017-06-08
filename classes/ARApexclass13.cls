@@ -1,10 +1,11 @@
 public Class ARApexclass13
 {
-public Account createAccount(String name)
+public Account createAccount(String name)  //testing
 {
 Account acc112 = new Account();
 acc112.Name = name;
+//Adding new comment for change
 return acc112;
-//new test comment - TechM
+//this is the test comment
 }
 }

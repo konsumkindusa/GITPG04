@@ -9,9 +9,9 @@
         <feedItemType>EmailMessageEvent</feedItemType>
     </caseFeedItemSettings>
     <closeCaseThroughStatusChange>false</closeCaseThroughStatusChange>
-    <defaultCaseOwner>ar-sf-prod-org5@autorabit.com</defaultCaseOwner>
+    <defaultCaseOwner>artest.org3@ar.com</defaultCaseOwner>
     <defaultCaseOwnerType>User</defaultCaseOwnerType>
-    <defaultCaseUser>ar-sf-prod-org5@autorabit.com</defaultCaseUser>
+    <defaultCaseUser>artest.org3@ar.com</defaultCaseUser>
     <emailToCase>
         <enableEmailToCase>false</enableEmailToCase>
     </emailToCase>
