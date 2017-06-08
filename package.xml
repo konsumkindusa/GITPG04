@@ -3,6 +3,11 @@
     <version>39.0</version>
     <types>
         <members>A0</members>
+        <members>ARApexACclass2</members>
+        <members>ARApexclass117</members>
+        <members>ARApexclass13</members>
+        <members>ARApexclass15</members>
+        <members>ARApexclass31</members>
         <members>LREngine</members>
         <members>MerckApex1</members>
         <members>MerckApex2</members>
@@ -15,6 +20,8 @@
     </types>
     <types>
         <members>SampleTrigger</members>
+        <members>Todd_CopyToAccount</members>
+        <members>updateQuoteStatus</members>
         <name>ApexTrigger</name>
     </types>
     <types>
