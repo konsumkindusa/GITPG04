@@ -102,6 +102,8 @@
         <name>CustomField</name>
     </types>
     <types>
+        <members>ARSF_Customlabel1</members>
+        <members>ARclabel3</members>
         <members>Goal_setting</members>
         <members>SR_Label</members>
         <name>CustomLabel</name>
