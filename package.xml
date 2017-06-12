@@ -90,6 +90,8 @@
         <members>Lead.ProductInterest__c</members>
         <members>Lead.SICCode__c</members>
         <members>Merck__c.Merck_Picklist__c</members>
+        <members>Merck__c.YT_List_of_Values__c</members>
+        <members>Merck__c.YT_TEXT__c</members>
         <members>Metric.OrigMetricId__c</members>
         <members>Opportunity.CurrentGenerators__c</members>
         <members>Opportunity.DeliveryInstallationStatus__c</members>
@@ -501,6 +503,10 @@
         <members>WorkOrderPriority</members>
         <members>WorkOrderStatus</members>
         <name>StandardValueSet</name>
+    </types>
+    <types>
+        <members>en_GB</members>
+        <name>Translations</name>
     </types>
     <types>
         <members>Account.Billing</members>

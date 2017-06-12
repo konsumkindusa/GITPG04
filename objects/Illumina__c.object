@@ -52,9 +52,43 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
-        <fullName>Merck_Picklist__c</fullName>
+        <fullName>Case_RSInc1__c</fullName>
         <externalId>false</externalId>
-        <label>Merck Picklist</label>
+        <label>Case_RSInc1</label>
+        <referenceTo>Case</referenceTo>
+        <relationshipLabel>Illumina</relationshipLabel>
+        <relationshipName>Illuminas</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>IlmnTextField_RSInc23__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>false</externalId>
+        <label>IlmnTextField_RSInc23</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>IlmnTextField_RSInc24__c</fullName>
+        <externalId>false</externalId>
+        <label>IlmnTextField_RSInc24</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PicklistDemo__c</fullName>
+        <externalId>false</externalId>
+        <label>PicklistDemo</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
@@ -63,104 +97,58 @@
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
-                    <fullName>Value01</fullName>
+                    <fullName>Value1</fullName>
                     <default>false</default>
-                    <label>Value01</label>
+                    <label>Value1</label>
                 </value>
                 <value>
-                    <fullName>Value02</fullName>
+                    <fullName>Value2</fullName>
                     <default>false</default>
-                    <label>Value02</label>
+                    <label>Value2</label>
                 </value>
                 <value>
-                    <fullName>Value03</fullName>
+                    <fullName>Value3</fullName>
                     <default>false</default>
-                    <label>Value03</label>
+                    <label>Value3</label>
                 </value>
                 <value>
-                    <fullName>Value04</fullName>
+                    <fullName>Value4</fullName>
                     <default>false</default>
-                    <label>Value04</label>
+                    <label>Value4</label>
                 </value>
                 <value>
-                    <fullName>Value05</fullName>
+                    <fullName>Value5</fullName>
                     <default>false</default>
-                    <label>Value05</label>
+                    <label>Value5</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
-    <fields>
-        <fullName>YT_List_of_Values__c</fullName>
-        <description>YT added picklist.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>YT help Text</inlineHelpText>
-        <label>YT List of Values</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>mem1</fullName>
-                    <default>true</default>
-                    <label>mem1</label>
-                </value>
-                <value>
-                    <fullName>mem2</fullName>
-                    <default>false</default>
-                    <label>mem2</label>
-                </value>
-                <value>
-                    <fullName>mem3</fullName>
-                    <default>false</default>
-                    <label>mem3</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>YT_TEXT__c</fullName>
-        <externalId>false</externalId>
-        <label>YT TEXT</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>a</fullName>
-                    <default>false</default>
-                    <label>a</label>
-                </value>
-                <value>
-                    <fullName>b</fullName>
-                    <default>false</default>
-                    <label>b</label>
-                </value>
-                <value>
-                    <fullName>c</fullName>
-                    <default>false</default>
-                    <label>c</label>
-                </value>
-                <value>
-                    <fullName>d</fullName>
-                    <default>false</default>
-                    <label>d</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <label>Merck</label>
+    <label>Illumina</label>
     <nameField>
-        <label>Merck Name</label>
+        <label>Illumina Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Mercks</pluralLabel>
+    <pluralLabel>Illuminas</pluralLabel>
     <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>IlmnValidationRule2_RSInc2</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISBLANK( IlmnTextField_RSInc23__c)</errorConditionFormula>
+        <errorMessage>Cannot be blank</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>IlmnValidationRule_RSInc2</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISNULL( IlmnTextField_RSInc23__c)</errorConditionFormula>
+        <errorMessage>Cannot be blank</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>IlmnValidationRule_RSInc24</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISNULL( IlmnTextField_RSInc24__c)</errorConditionFormula>
+        <errorMessage>Cannot be blank</errorMessage>
+    </validationRules>
     <visibility>Public</visibility>
 </CustomObject>
