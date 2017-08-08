@@ -1353,6 +1353,11 @@
         <field>TestSunrun__c.SunRunCheckBox__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>William_Wolf_Bicycle_Co__c.Bicycle_Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
@@ -1411,6 +1416,10 @@
         <layout>Macro-Macro Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Merck__c-Merck Layout</layout>
+        <recordType>Merck__c.YT_Rec_Type</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Opportunity-Opportunity Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -1441,6 +1450,9 @@
         <layout>Task-Task Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>TestSunrun__c-TestSunrun Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>User-User Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -1453,14 +1465,10 @@
         <layout>UserProvisioningRequest-User Provisioning Request Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>William_Wolf_Bicycle_Co__c-William Wplf Bicycle Co Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>tree__c-tree Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>TestSunrun__c-TestSunrun Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Merck__c-Merck Layout</layout>
-        <recordType>Merck__c.YT_Rec_Type</recordType>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>false</allowCreate>
@@ -1666,6 +1674,15 @@
         <allowEdit>false</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
+        <object>William_Wolf_Bicycle_Co__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
         <object>tree__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -1773,6 +1790,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ApiEnabled</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EnableCommunityAppLauncher</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>

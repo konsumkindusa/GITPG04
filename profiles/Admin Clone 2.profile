@@ -36,9 +36,17 @@
         <field>Merck__c.YT_List_of_Values__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>William_Wolf_Bicycle_Co__c.Bicycle_Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Merck__c-Merck Layout</layout>
         <recordType>Merck__c.YT_Rec_Type</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>William_Wolf_Bicycle_Co__c-William Wplf Bicycle Co Layout</layout>
     </layoutAssignments>
     <recordTypeVisibilities>
         <default>true</default>
@@ -121,6 +129,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ContentAdministrator</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ContentWorkspaces</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -260,6 +272,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>LightningConsoleAllowedForUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>LightningExperienceUser</name>
     </userPermissions>
     <userPermissions>
@@ -281,6 +297,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ManageCategories</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManageCertificates</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>

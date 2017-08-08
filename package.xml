@@ -168,6 +168,7 @@
         <members>Test_DataLoader__c</members>
         <members>User</members>
         <members>UserProvisioningRequest</members>
+        <members>William_Wolf_Bicycle_Co__c</members>
         <members>tree__c</members>
         <name>CustomObject</name>
     </types>
@@ -245,6 +246,7 @@
         <members>UserProvAccount-User Provisioning Account Layout</members>
         <members>UserProvisioningLog-User Provisioning Log Layout</members>
         <members>UserProvisioningRequest-User Provisioning Request Layout</members>
+        <members>William_Wolf_Bicycle_Co__c-William Wplf Bicycle Co Layout</members>
         <members>tree__c-tree Layout</members>
         <name>Layout</name>
     </types>
