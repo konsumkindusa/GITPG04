@@ -51,6 +51,40 @@
     <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Bicycle_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Bicycle Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>BMX</fullName>
+                    <default>false</default>
+                    <label>BMX</label>
+                </value>
+                <value>
+                    <fullName>Mountain Bike</fullName>
+                    <default>false</default>
+                    <label>Mountain Bike</label>
+                </value>
+                <value>
+                    <fullName>City Cruiser</fullName>
+                    <default>false</default>
+                    <label>City Cruiser</label>
+                </value>
+                <value>
+                    <fullName>Trekking Bike</fullName>
+                    <default>false</default>
+                    <label>Trekking Bike</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
     <label>William Wolf Bicycle Co</label>
     <nameField>
         <label>William Wolf Bicycle Co Name</label>

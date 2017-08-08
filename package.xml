@@ -103,6 +103,7 @@
         <members>TestSunrun__c.SunRunCheckBox__c</members>
         <members>Test_DataLoader__c.testField2__c</members>
         <members>Test_DataLoader__c.tf1__c</members>
+        <members>William_Wolf_Bicycle_Co__c.Bicycle_Type__c</members>
         <name>CustomField</name>
     </types>
     <types>
