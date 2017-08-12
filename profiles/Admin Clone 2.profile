@@ -28,6 +28,11 @@
     <custom>true</custom>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Credit_Cards__c.Credit_Card_Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Merck__c.Merck_Picklist__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -41,6 +46,9 @@
         <field>William_Wolf_Bicycle_Co__c.Bicycle_Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <layoutAssignments>
+        <layout>Credit_Cards__c-Credit Cards Layout</layout>
+    </layoutAssignments>
     <layoutAssignments>
         <layout>Merck__c-Merck Layout</layout>
         <recordType>Merck__c.YT_Rec_Type</recordType>

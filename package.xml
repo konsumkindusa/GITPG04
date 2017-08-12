@@ -85,6 +85,7 @@
         <members>Contact.AutorabitExtId__c</members>
         <members>Contact.Languages__c</members>
         <members>Contact.Level__c</members>
+        <members>Credit_Cards__c.Credit_Card_Type__c</members>
         <members>Goal.OrigGoalId__c</members>
         <members>Lead.CurrentGenerators__c</members>
         <members>Lead.NumberofLocations__c</members>
@@ -134,6 +135,7 @@
         <members>ContentVersion</members>
         <members>Contract</members>
         <members>ContractContactRole</members>
+        <members>Credit_Cards__c</members>
         <members>DandBCompany</members>
         <members>DuplicateRecordItem</members>
         <members>DuplicateRecordSet</members>
@@ -216,6 +218,7 @@
         <members>Contact-Contact Layout</members>
         <members>ContentVersion-Content Version Layout</members>
         <members>Contract-Contract Layout</members>
+        <members>Credit_Cards__c-Credit Cards Layout</members>
         <members>DandBCompany-D%26B Company Layout</members>
         <members>DuplicateRecordSet-Duplicate Record Set Layout</members>
         <members>EmailMessage-Email Message Layout</members>

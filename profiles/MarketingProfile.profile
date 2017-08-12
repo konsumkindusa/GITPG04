@@ -834,6 +834,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Credit_Cards__c.Credit_Card_Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Event.Description</field>
         <readable>true</readable>
@@ -1387,6 +1392,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Contract-Contract Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Credit_Cards__c-Credit Cards Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>DandBCompany-D%26B Company Layout</layout>
