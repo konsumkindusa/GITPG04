@@ -5,6 +5,8 @@
         <members>A0</members>
         <members>LREngine</members>
         <members>Test</members>
+        <members>VoyaApex1</members>
+        <members>VoyaApexTest1</members>
         <members>sampleClass</members>
         <name>ApexClass</name>
     </types>
