@@ -17,6 +17,8 @@
         <members>MerckApexTest1</members>
         <members>MerckApexTest2</members>
         <members>Test</members>
+        <members>VoyaApex1</members>
+        <members>VoyaApexTest1</members>
         <members>sampleClass</members>
         <name>ApexClass</name>
     </types>
