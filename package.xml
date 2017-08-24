@@ -8,9 +8,20 @@
         <members>ARApexclass13</members>
         <members>ARApexclass15</members>
         <members>ARApexclass31</members>
+        <members>ARDemo1</members>
+        <members>AR_Deploycls</members>
+        <members>AR_Deploycls_Test</members>
+        <members>AutoRBT</members>
+        <members>CoverageCls</members>
         <members>DemoTestAcc</members>
         <members>GSurveysController</members>
         <members>GettingStartedController</members>
+        <members>HomeAwayApex1</members>
+        <members>HomeAwayApex2</members>
+        <members>HomeAwayApex3</members>
+        <members>HomeAwyApexTest1</members>
+        <members>HomeAwyApexTest2</members>
+        <members>HomeAwyApexTest3</members>
         <members>OrderFormController</members>
         <members>Ordercontroller_Test</members>
         <members>ReportFinderUtil</members>
@@ -22,6 +33,76 @@
         <members>SurveyTestingUtil</members>
         <members>Todd_CopyToAccount_Tester</members>
         <members>ViewSurveyController</members>
+        <members>VoyaApex1</members>
+        <members>VoyaApexTest1</members>
+        <members>skuid__BasicComponent</members>
+        <members>skuid__CSVReader</members>
+        <members>skuid__ComponentPackDef</members>
+        <members>skuid__CredentialsManagementController</members>
+        <members>skuid__DataTable</members>
+        <members>skuid__DeleteModelDataSourceCredentials</members>
+        <members>skuid__ExportController</members>
+        <members>skuid__FormulaParser</members>
+        <members>skuid__GlobalConstants</members>
+        <members>skuid__ImportController</members>
+        <members>skuid__ImportJob</members>
+        <members>skuid__ImportStatusController</members>
+        <members>skuid__IncludePanel</members>
+        <members>skuid__InstallScript</members>
+        <members>skuid__LabelsController</members>
+        <members>skuid__MassImport</members>
+        <members>skuid__MockOAuthAuthorizationServer</members>
+        <members>skuid__Model</members>
+        <members>skuid__ModelComponent</members>
+        <members>skuid__ModelDataSource</members>
+        <members>skuid__ModelDataSourceAuthProvider</members>
+        <members>skuid__Navigation</members>
+        <members>skuid__OAuthProxyController</members>
+        <members>skuid__OAuthUtils</members>
+        <members>skuid__PackageMetadata</members>
+        <members>skuid__PageAssignment</members>
+        <members>skuid__PageBuilder</members>
+        <members>skuid__PageListControllerExtension</members>
+        <members>skuid__Personalization</members>
+        <members>skuid__Proxy</members>
+        <members>skuid__Queue</members>
+        <members>skuid__Redirects</members>
+        <members>skuid__RemotingStubs</members>
+        <members>skuid__Resources</members>
+        <members>skuid__RestServices_Model</members>
+        <members>skuid__RestServices_Page</members>
+        <members>skuid__SAMLBearerAssertion</members>
+        <members>skuid__SObjectGenerator</members>
+        <members>skuid__SearchRequest</members>
+        <members>skuid__SharepointAuthProvider</members>
+        <members>skuid__SharepointAuthProviderMockEndpoint</members>
+        <members>skuid__SkooCal</members>
+        <members>skuid__SkooTable</members>
+        <members>skuid__SkuidCryptIterable</members>
+        <members>skuid__SkuidException</members>
+        <members>skuid__SkuidHeaderIncludes</members>
+        <members>skuid__SkuidInstallScript</members>
+        <members>skuid__SkuidLightningController</members>
+        <members>skuid__SkuidPage</members>
+        <members>skuid__SkuidReCrypt</members>
+        <members>skuid__SkuidSettingsController</members>
+        <members>skuid__Skuidponent</members>
+        <members>skuid__SkuidponentImpl</members>
+        <members>skuid__Social</members>
+        <members>skuid__TestData</members>
+        <members>skuid__ThemeComposer</members>
+        <members>skuid__ThemeComposerController</members>
+        <members>skuid__Ui</members>
+        <members>skuid__UnitTests_Core</members>
+        <members>skuid__UnitTests_ImageTrigger</members>
+        <members>skuid__UnitTests_RestServices</members>
+        <members>skuid__UnitTests_SAMLBearerAssertion</members>
+        <members>skuid__UnitTests_SkuidSettingsControllers</members>
+        <members>skuid__UploadImageController</members>
+        <members>skuid__UserUtils</members>
+        <members>skuid__Utils</members>
+        <members>skuid__ViewReportController</members>
+        <members>skuid__Wizard</members>
         <members>viewShareSurveyComponentController</members>
         <members>viewSurveyResultsComponentController</members>
         <name>ApexClass</name>
