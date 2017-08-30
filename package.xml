@@ -20,15 +20,26 @@
         <members>CoverageCls</members>
         <members>DemoTestAcc</members>
         <members>GSurveysController</members>
-        <members>LREngine</members>
-        <members>MerckApex1</members>
-        <members>MerckApex2</members>
-        <members>MerckApex3</members>
-        <members>MerckApexTest1</members>
-        <members>MerckApexTest2</members>
-        <members>Test</members>
+        <members>GettingStartedController</members>
+        <members>HomeAwayApex1</members>
+        <members>HomeAwayApex2</members>
+        <members>HomeAwayApex3</members>
+        <members>HomeAwyApexTest1</members>
+        <members>HomeAwyApexTest2</members>
+        <members>HomeAwyApexTest3</members>
+        <members>OrderFormController</members>
+        <members>Ordercontroller_Test</members>
+        <members>ReportFinderUtil</members>
+        <members>ScopeInformationController</members>
+        <members>ScopeInformation_test</members>
+        <members>SurveyAndQuestionController</members>
+        <members>SurveyManagerController</members>
+        <members>SurveySitesUtil</members>
+        <members>SurveyTestingUtil</members>
         <members>ThreeMApex1</members>
         <members>ThreeMApexTest1</members>
+        <members>Todd_CopyToAccount_Tester</members>
+        <members>ViewSurveyController</members>
         <members>VoyaApex1</members>
         <members>VoyaApexTest1</members>
         <members>skuid__BasicComponent</members>
