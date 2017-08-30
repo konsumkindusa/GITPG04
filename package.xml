@@ -31,6 +31,8 @@
         <members>SurveyManagerController</members>
         <members>SurveySitesUtil</members>
         <members>SurveyTestingUtil</members>
+        <members>ThreeMApex1</members>
+        <members>ThreeMApexTest1</members>
         <members>Todd_CopyToAccount_Tester</members>
         <members>ViewSurveyController</members>
         <members>VoyaApex1</members>
