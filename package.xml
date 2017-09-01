@@ -96,6 +96,7 @@
         <members>Opportunity.MainCompetitors__c</members>
         <members>Opportunity.OrderNumber__c</members>
         <members>Opportunity.TrackingNumber__c</members>
+        <members>SBnD__c.SBnD_Picklist__c</members>
         <members>TestSunrun__c.SunRunCheckBox__c</members>
         <members>Test_DataLoader__c.testField2__c</members>
         <members>Test_DataLoader__c.tf1__c</members>
@@ -154,6 +155,7 @@
         <members>Pricebook2</members>
         <members>PricebookEntry</members>
         <members>Product2</members>
+        <members>SBnD__c</members>
         <members>SecondSoundExchange__c</members>
         <members>Site</members>
         <members>SocialPersona</members>
@@ -233,6 +235,7 @@
         <members>Pricebook2-Price Book Layout</members>
         <members>PricebookEntry-Price Book Entry Layout</members>
         <members>Product2-Product Layout</members>
+        <members>SBnD__c-SBnD Layout</members>
         <members>SecondSoundExchange__c-SecondSoundExchange Layout</members>
         <members>Solution-Solution Layout</members>
         <members>Task-Task Layout</members>
