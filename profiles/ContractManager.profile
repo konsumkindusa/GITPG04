@@ -1310,6 +1310,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>SBnD__c.SBnD_Picklist__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>SocialPersona.SourceApp</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1447,6 +1452,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Product2-Product Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBnD__c-SBnD Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>SecondSoundExchange__c-SecondSoundExchange Layout</layout>

@@ -43,6 +43,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>SBnD__c.SBnD_Picklist__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>William_Wolf_Bicycle_Co__c.Bicycle_Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -52,6 +57,9 @@
     <layoutAssignments>
         <layout>Merck__c-Merck Layout</layout>
         <recordType>Merck__c.YT_Rec_Type</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBnD__c-SBnD Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>William_Wolf_Bicycle_Co__c-William Wplf Bicycle Co Layout</layout>
