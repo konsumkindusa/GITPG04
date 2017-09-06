@@ -386,6 +386,7 @@
         <members>Task</members>
         <members>TestSunrun__c</members>
         <members>Test_DataLoader__c</members>
+        <members>ThreeM__c</members>
         <members>User</members>
         <members>UserProvisioningRequest</members>
         <members>William_Wolf_Bicycle_Co__c</members>
