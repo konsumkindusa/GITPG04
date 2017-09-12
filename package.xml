@@ -236,8 +236,25 @@
         <name>ApexClass</name>
     </types>
     <types>
+        <members>viewShareSurveyComponent</members>
+        <members>viewSurveyResultsComponent</members>
+        <name>ApexComponent</name>
+    </types>
+    <types>
+        <members>GSurveys</members>
+        <members>Getting_Started_With_Survey_Force</members>
+        <members>Order_Form</members>
+        <members>ScopeInformationPage</members>
+        <members>SurveyManagerPage</members>
+        <members>SurveyPage</members>
+        <members>TakeSurvey</members>
+        <members>labs_survey_css</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
         <members>SampleTrigger</members>
         <members>Todd_CopyToAccount</members>
+        <members>primarycheckonScope</members>
         <members>updateQuoteStatus</members>
         <name>ApexTrigger</name>
     </types>
@@ -262,6 +279,11 @@
         <name>AutoResponseRules</name>
     </types>
     <types>
+        <members>Opportunity.Opp A</members>
+        <members>Opportunity.Opp B</members>
+        <name>BusinessProcess</name>
+    </types>
+    <types>
         <members>DataCloudGeoLocation</members>
         <name>CleanDataService</name>
     </types>
@@ -270,6 +292,8 @@
         <name>Community</name>
     </types>
     <types>
+        <members>Survey_Force</members>
+        <members>YT_APP</members>
         <members>standard__AppLauncher</members>
         <members>standard__Chatter</members>
         <members>standard__Community</members>
@@ -283,6 +307,9 @@
         <name>CustomApplication</name>
     </types>
     <types>
+        <members>ARSF_AccObj1__c.ARSF_Feid2__c</members>
+        <members>ARSF_AccObj1__c.ARSF_Field1__c</members>
+        <members>ARSF_Object2__c.ARSFieldTest1__c</members>
         <members>Account.Active__c</members>
         <members>Account.AutorabitExtId__c</members>
         <members>Account.CustomerPriority__c</members>
@@ -290,6 +317,9 @@
         <members>Account.SLAExpirationDate__c</members>
         <members>Account.SLASerialNumber__c</members>
         <members>Account.SLA__c</members>
+        <members>Account.Todd_Target_Value_2__c</members>
+        <members>Account.Todd_Target_Value_3__c</members>
+        <members>Account.Todd_Target_Value__c</members>
         <members>Account.UpsellOpportunity__c</members>
         <members>Account_Settings__mdt.Md_Email__c</members>
         <members>Case.AutorabitExtId__c</members>
@@ -297,11 +327,24 @@
         <members>Case.PotentialLiability__c</members>
         <members>Case.Product__c</members>
         <members>Case.SLAViolation__c</members>
+        <members>Child__c.ChildMD__c</members>
+        <members>Child__c.Parent__c</members>
+        <members>Child__c.Sibling_1__c</members>
+        <members>Child__c.Sibling_2__c</members>
+        <members>Child__c.TextTest__c</members>
         <members>Contact.AutorabitExtId__c</members>
+        <members>Contact.Case__c</members>
         <members>Contact.Languages__c</members>
         <members>Contact.Level__c</members>
+        <members>Contact.Todd_Source_Value__c</members>
         <members>Credit_Cards__c.Credit_Card_Type__c</members>
         <members>Goal.OrigGoalId__c</members>
+        <members>Grand_Child_1__c.Parent__c</members>
+        <members>Grand_Parent__c.Child__c</members>
+        <members>Illumina__c.Case_RSInc1__c</members>
+        <members>Illumina__c.IlmnTextField_RSInc23__c</members>
+        <members>Illumina__c.IlmnTextField_RSInc24__c</members>
+        <members>Illumina__c.PicklistDemo__c</members>
         <members>Lead.CurrentGenerators__c</members>
         <members>Lead.NumberofLocations__c</members>
         <members>Lead.Primary__c</members>
@@ -311,22 +354,135 @@
         <members>Merck__c.YT_List_of_Values__c</members>
         <members>Merck__c.YT_TEXT__c</members>
         <members>Metric.OrigMetricId__c</members>
+        <members>ObjectForLily__c.TestTextField__c</members>
         <members>Opportunity.CurrentGenerators__c</members>
         <members>Opportunity.DeliveryInstallationStatus__c</members>
+        <members>Opportunity.Does_this_work__c</members>
         <members>Opportunity.MainCompetitors__c</members>
         <members>Opportunity.OrderNumber__c</members>
         <members>Opportunity.TrackingNumber__c</members>
+        <members>Order__c.Account__c</members>
+        <members>Order__c.Discount__c</members>
+        <members>Order__c.Product__c</members>
+        <members>Order__c.Quantity__c</members>
+        <members>Order__c.Quote__c</members>
+        <members>Order__c.Status__c</members>
+        <members>Order__c.TOMID__c</members>
         <members>SBnD__c.SBnD_Picklist__c</members>
+        <members>Sally_s_Budget__c.Sally_s_CheckBox__c</members>
+        <members>Scope_Poc_Information__c.Approver__c</members>
+        <members>Scope_Poc_Information__c.Assumptions__c</members>
+        <members>Scope_Poc_Information__c.AutoRABIT_POC__c</members>
+        <members>Scope_Poc_Information__c.Demo_Completed__c</members>
+        <members>Scope_Poc_Information__c.Is_primary__c</members>
+        <members>Scope_Poc_Information__c.License_provision_complete__c</members>
+        <members>Scope_Poc_Information__c.Opportunity__c</members>
+        <members>Scope_Poc_Information__c.Out_ofScope__c</members>
+        <members>Scope_Poc_Information__c.Person_to_Contact__c</members>
+        <members>Scope_Poc_Information__c.Poc_End_Date__c</members>
+        <members>Scope_Poc_Information__c.Poc_Scope__c</members>
+        <members>Scope_Poc_Information__c.Poc_Start_Date__c</members>
+        <members>Scope_Poc_Information__c.Scope__c</members>
+        <members>Scope_Poc_Information__c.sign_off_Criteria__c</members>
+        <members>SurveyQuestionResponse__c.Response__c</members>
+        <members>SurveyQuestionResponse__c.SurveyTaker__c</members>
+        <members>SurveyQuestionResponse__c.Survey_Question__c</members>
+        <members>SurveyQuestionResponse__c.of_Time_Question_was_Responded_to__c</members>
+        <members>SurveyTaker__c.Case__c</members>
+        <members>SurveyTaker__c.Contact__c</members>
+        <members>SurveyTaker__c.Survey__c</members>
+        <members>SurveyTaker__c.Taken__c</members>
+        <members>SurveyTaker__c.User__c</members>
+        <members>Survey_Question__c.Choices__c</members>
+        <members>Survey_Question__c.OrderNumber__c</members>
+        <members>Survey_Question__c.Question__c</members>
+        <members>Survey_Question__c.Required__c</members>
+        <members>Survey_Question__c.Survey__c</members>
+        <members>Survey_Question__c.Total_Responses__c</members>
+        <members>Survey_Question__c.Type__c</members>
+        <members>Survey__c.Hide_Survey_Name__c</members>
+        <members>Survey__c.Submit_Response__c</members>
+        <members>Survey__c.Survey_Container_CSS__c</members>
+        <members>Survey__c.Survey_Header__c</members>
+        <members>Survey__c.Thank_You_Text__c</members>
+        <members>Survey__c.URL__c</members>
+        <members>Survey__c.thankYouLink__c</members>
+        <members>Survey__c.thankYouText__c</members>
         <members>TestSunrun__c.SunRunCheckBox__c</members>
         <members>Test_DataLoader__c.testField2__c</members>
         <members>Test_DataLoader__c.tf1__c</members>
         <members>William_Wolf_Bicycle_Co__c.Bicycle_Type__c</members>
+        <members>dsfs__DocuSign_Status__c.Successful_Delivery__c</members>
         <name>CustomField</name>
     </types>
     <types>
         <members>ARSF_Customlabel1</members>
+        <members>AR_SfCustomlabel2</members>
         <members>ARclabel3</members>
         <members>Goal_setting</members>
+        <members>LABS_SF_AddQuestion</members>
+        <members>LABS_SF_Anonymous</members>
+        <members>LABS_SF_Answer_as</members>
+        <members>LABS_SF_Cancel</members>
+        <members>LABS_SF_Chatter</members>
+        <members>LABS_SF_Chatter_Link</members>
+        <members>LABS_SF_Community</members>
+        <members>LABS_SF_ContactWithCase</members>
+        <members>LABS_SF_CurrentSurveys</members>
+        <members>LABS_SF_Delete</members>
+        <members>LABS_SF_Delete_Confirm</members>
+        <members>LABS_SF_Edit</members>
+        <members>LABS_SF_Email_Link_Anonymous</members>
+        <members>LABS_SF_Email_Link_w_Contact_Case_Merge</members>
+        <members>LABS_SF_Email_Link_w_Contact_Merge</members>
+        <members>LABS_SF_EnterSurveyName</members>
+        <members>LABS_SF_External_Please_Create_Site</members>
+        <members>LABS_SF_For_community_assistance_with_Survey_Force</members>
+        <members>LABS_SF_Getting_Help</members>
+        <members>LABS_SF_HeaderAndThankYou</members>
+        <members>LABS_SF_Installation_Guide</members>
+        <members>LABS_SF_Internal</members>
+        <members>LABS_SF_JustContact</members>
+        <members>LABS_SF_Learn_More</members>
+        <members>LABS_SF_MakeANewSurvey</members>
+        <members>LABS_SF_MakeNewSurvey</members>
+        <members>LABS_SF_Make_a_Sample_Survey</members>
+        <members>LABS_SF_Next_Steps</members>
+        <members>LABS_SF_PleaseEnterTheList</members>
+        <members>LABS_SF_Question</members>
+        <members>LABS_SF_Required</members>
+        <members>LABS_SF_RequiredQuestion</members>
+        <members>LABS_SF_Resources</members>
+        <members>LABS_SF_Results</members>
+        <members>LABS_SF_SELECTSITE</members>
+        <members>LABS_SF_SELECTTYPE</members>
+        <members>LABS_SF_Salesforce_Answers</members>
+        <members>LABS_SF_Save</members>
+        <members>LABS_SF_SaveOrder</members>
+        <members>LABS_SF_SelectQuestionType</members>
+        <members>LABS_SF_SelectSitetodisplaySurvey</members>
+        <members>LABS_SF_Share</members>
+        <members>LABS_SF_Share_My_Survey</members>
+        <members>LABS_SF_Sharing_Options</members>
+        <members>LABS_SF_SubmitSurvey</members>
+        <members>LABS_SF_SurveyForceIsOpenSource</members>
+        <members>LABS_SF_SurveyURLLink</members>
+        <members>LABS_SF_Survey_Force_is_unsupported</members>
+        <members>LABS_SF_Survey_Force_on_Github</members>
+        <members>LABS_SF_Survey_Name_Is_Required</members>
+        <members>LABS_SF_Survey_Site_Is_Required</members>
+        <members>LABS_SF_Survey_Submitted_Thank_you</members>
+        <members>LABS_SF_To_submit_ideas_or_issues</members>
+        <members>LABS_SF_User_Guide</members>
+        <members>LABS_SF_View_Results_In_New_Window</members>
+        <members>LABS_SF_View_Sample_Survey</members>
+        <members>LABS_SF_Welcome_to_Survey_Force</members>
+        <members>LABS_SF_X1_Create_a_sample_survey</members>
+        <members>LABS_SF_X2_External_Setup_Site</members>
+        <members>LABS_SF_X3_Start_creating_your_first_survey</members>
+        <members>LABS_SF_You_have_already_taken_this_survey</members>
+        <members>LABS_SF_Your_next_few_steps_are_easy</members>
+        <members>LABS_SF_please_visit</members>
         <members>SR_Label</members>
         <name>CustomLabel</name>
     </types>
@@ -335,6 +491,8 @@
         <name>CustomLabels</name>
     </types>
     <types>
+        <members>ARSF_AccObj1__c</members>
+        <members>ARSF_Object2__c</members>
         <members>Account</members>
         <members>AccountCleanInfo</members>
         <members>AccountContactRole</members>
@@ -346,11 +504,13 @@
         <members>CampaignMember</members>
         <members>Case</members>
         <members>CaseContactRole</members>
+        <members>Child__c</members>
         <members>Contact</members>
         <members>ContactCleanInfo</members>
         <members>ContentVersion</members>
         <members>Contract</members>
         <members>ContractContactRole</members>
+        <members>Cookie__c</members>
         <members>Credit_Cards__c</members>
         <members>DandBCompany</members>
         <members>DuplicateRecordItem</members>
@@ -360,29 +520,43 @@
         <members>ExchangeUserMapping</members>
         <members>FeedItem</members>
         <members>ForecastingCategoryMapping</members>
+        <members>Grand_Child_1__c</members>
+        <members>Grand_Parent__c</members>
+        <members>Grand_Sibling_1__c</members>
+        <members>Grand_Sibling_2__c</members>
         <members>Idea</members>
+        <members>Illumina__c</members>
         <members>Lead</members>
         <members>LeadCleanInfo</members>
         <members>Macro</members>
         <members>MacroAction</members>
         <members>MacroInstruction</members>
         <members>Merck__c</members>
+        <members>ObjectForLily__c</members>
         <members>Opportunity</members>
         <members>OpportunityCompetitor</members>
         <members>OpportunityContactRole</members>
         <members>OpportunityLineItem</members>
         <members>Order</members>
         <members>OrderItem</members>
+        <members>Order__c</members>
+        <members>Parent__c</members>
         <members>PartnerRole</members>
         <members>Pricebook2</members>
         <members>PricebookEntry</members>
         <members>Product2</members>
         <members>SBnD__c</members>
+        <members>Sally_s_Budget__c</members>
+        <members>Scope_Poc_Information__c</members>
         <members>SecondSoundExchange__c</members>
         <members>Site</members>
         <members>SocialPersona</members>
         <members>Solution</members>
         <members>StreamingChannel</members>
+        <members>SurveyQuestionResponse__c</members>
+        <members>SurveyTaker__c</members>
+        <members>Survey_Question__c</members>
+        <members>Survey__c</members>
         <members>Task</members>
         <members>TestSunrun__c</members>
         <members>Test_DataLoader__c</members>
@@ -401,7 +575,39 @@
         <name>CustomObjectTranslation</name>
     </types>
     <types>
+        <members>Child__c</members>
+        <members>Getting_Started_With_Survey_Force</members>
+        <members>Grand_Child_1__c</members>
+        <members>Grand_Parent__c</members>
+        <members>Grand_Sibling_1__c</members>
+        <members>Grand_Sibling_2__c</members>
+        <members>Merck__c</members>
+        <members>Parent__c</members>
+        <members>SurveyTaker__c</members>
+        <members>Survey__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Contact.Standard_Rule_for_Contacts_with_Duplicate_Leads</members>
+        <members>Lead.Standard_Rule_for_Leads_with_Duplicate_Contacts</members>
+        <name>DuplicateRule</name>
+    </types>
+    <types>
         <members>unfiled$public</members>
+        <members>unfiled$public/IlmnET_RSInc1</members>
+        <members>unfiled$public/MarketingProductInquiryResponse</members>
+        <members>unfiled$public/SUPPORTSelfServiceNewCommentNotificationSAMPLE</members>
+        <members>unfiled$public/SUPPORTSelfServiceNewUserLoginInformationSAMPLE</members>
+        <members>unfiled$public/SUPPORTSelfServiceResetPasswordSAMPLE</members>
+        <members>unfiled$public/SalesNewCustomerEmail</members>
+        <members>unfiled$public/SupportCaseAssignmentNotification</members>
+        <members>unfiled$public/SupportCaseCreatedPhoneInquiries</members>
+        <members>unfiled$public/SupportCaseCreatedWebInquiries</members>
+        <members>unfiled$public/SupportCaseResponse</members>
+        <members>unfiled$public/SupportEscalatedCaseNotification</members>
+        <members>unfiled$public/SupportEscalatedCaseReassignment</members>
+        <members>unfiled$public/SupportSelfServiceNewLoginandPassword</members>
+        <members>unfiled$public/SupportSelfServiceResetPassword</members>
         <name>EmailTemplate</name>
     </types>
     <types>
@@ -413,10 +619,25 @@
         <name>EscalationRules</name>
     </types>
     <types>
+        <members>Order__c.testfs</members>
+        <name>FieldSet</name>
+    </types>
+    <types>
+        <members>YT_Public_Group</members>
+        <name>Group</name>
+    </types>
+    <types>
         <members>DE Default</members>
         <name>HomePageLayout</name>
     </types>
     <types>
+        <members>dsfs</members>
+        <members>sf_com_apps</members>
+        <name>InstalledPackage</name>
+    </types>
+    <types>
+        <members>ARSF_AccObj1__c-ARSF-AccObj1 Layout</members>
+        <members>ARSF_Object2__c-ARSF-Object2 Layout</members>
         <members>Account-Account %28Marketing%29 Layout</members>
         <members>Account-Account %28Sales%29 Layout</members>
         <members>Account-Account %28Support%29 Layout</members>
@@ -430,12 +651,14 @@
         <members>Case-Case %28Support%29 Layout</members>
         <members>Case-Case Layout</members>
         <members>CaseClose-Close Case Layout</members>
+        <members>Child__c-Child1 Layout</members>
         <members>Contact-Contact %28Marketing%29 Layout</members>
         <members>Contact-Contact %28Sales%29 Layout</members>
         <members>Contact-Contact %28Support%29 Layout</members>
         <members>Contact-Contact Layout</members>
         <members>ContentVersion-Content Version Layout</members>
         <members>Contract-Contract Layout</members>
+        <members>Cookie__c-Cookie Layout</members>
         <members>Credit_Cards__c-Credit Cards Layout</members>
         <members>DandBCompany-D%26B Company Layout</members>
         <members>DuplicateRecordSet-Duplicate Record Set Layout</members>
@@ -443,13 +666,20 @@
         <members>Event-Event Layout</members>
         <members>FeedItem-Feed Item Layout</members>
         <members>Global-Global Layout</members>
+        <members>Grand_Child_1__c-Grand Child 1 Layout</members>
+        <members>Grand_Parent__c-Grand Parent Layout</members>
+        <members>Grand_Sibling_1__c-Grand Sibling 1 Layout</members>
+        <members>Grand_Sibling_2__c-Grand Sibling 2 Layout</members>
         <members>Idea-Idea Layout</members>
+        <members>Illumina__c-Illumina Layout</members>
         <members>Lead-Lead %28Marketing%29 Layout</members>
         <members>Lead-Lead %28Sales%29 Layout</members>
         <members>Lead-Lead %28Support%29 Layout</members>
         <members>Lead-Lead Layout</members>
         <members>Macro-Macro Layout</members>
         <members>Merck__c-Merck Layout</members>
+        <members>Merck__c-YT MRK LYT</members>
+        <members>ObjectForLily__c-ObjectForLily Layout</members>
         <members>Opportunity-Opportunity %28Marketing%29 Layout</members>
         <members>Opportunity-Opportunity %28Sales%29 Layout</members>
         <members>Opportunity-Opportunity %28Support%29 Layout</members>
@@ -457,14 +687,25 @@
         <members>OpportunityLineItem-Opportunity Product Layout</members>
         <members>Order-Order Layout</members>
         <members>OrderItem-Order Product Layout</members>
+        <members>Order__c-Mysalesorder Layout</members>
+        <members>Parent__c-Parent Layout</members>
         <members>Pricebook2-Price Book Layout</members>
         <members>PricebookEntry-Price Book Entry Layout</members>
         <members>Product2-Product Layout</members>
+        <members>Quote-Quote Layout</members>
+        <members>QuoteLineItem-Quote Line Item Layout</members>
         <members>SBnD__c-SBnD Layout</members>
+        <members>Sally_s_Budget__c-Sally%27s Budget Layout</members>
+        <members>Scope_Poc_Information__c-Scope - Poc Information Layout</members>
         <members>SecondSoundExchange__c-SecondSoundExchange Layout</members>
         <members>Solution-Solution Layout</members>
+        <members>SurveyQuestionResponse__c-Survey Question Answer Layout</members>
+        <members>SurveyTaker__c-SurveyTaker Layout</members>
+        <members>Survey_Question__c-Survey Question Layout</members>
+        <members>Survey__c-Survey Layout</members>
         <members>Task-Task Layout</members>
         <members>TestSunrun__c-TestSunrun Layout</members>
+        <members>ThreeM__c-Voya Layout</members>
         <members>User-User Layout</members>
         <members>UserProvAccount-User Provisioning Account Layout</members>
         <members>UserProvisioningLog-User Provisioning Log Layout</members>
@@ -490,6 +731,7 @@
         <members>Case.AllOpenCases</members>
         <members>Case.MyCases</members>
         <members>Case.MyOpenCases</members>
+        <members>Child__c.All</members>
         <members>Contact.AllContacts</members>
         <members>Contact.BirthdaysThisMonth</members>
         <members>Contact.MyContacts</members>
@@ -502,11 +744,16 @@
         <members>Contract.MyActivatedContracts</members>
         <members>Contract.MyDraftContracts</members>
         <members>Contract.MyInApprovalContracts</members>
+        <members>Grand_Child_1__c.All</members>
+        <members>Grand_Parent__c.All</members>
+        <members>Grand_Sibling_1__c.All</members>
+        <members>Grand_Sibling_2__c.All</members>
         <members>Lead.AllOpenLeads</members>
         <members>Lead.MyUnreadLeads</members>
         <members>Lead.TodaysLeads</members>
         <members>Lead.ViewCustom1</members>
         <members>Lead.ViewCustom2</members>
+        <members>Merck__c.All</members>
         <members>Opportunity.AllOpportunities</members>
         <members>Opportunity.ClosingNextMonth</members>
         <members>Opportunity.ClosingThisMonth</members>
@@ -519,9 +766,13 @@
         <members>Order.AllActivatedOrders</members>
         <members>Order.AllDraftOrders</members>
         <members>Order.AllOrders</members>
+        <members>Order__c.All</members>
+        <members>Parent__c.All</members>
         <members>Product2.AllProducts</members>
         <members>Solution.AllReviewedSolutions</members>
         <members>Solution.AllUnreviewedSolutions</members>
+        <members>SurveyTaker__c.All</members>
+        <members>Survey__c.standard_view</members>
         <members>User.ActiveUsers</members>
         <members>User.AdminUsers</members>
         <members>User.AllUsers</members>
@@ -598,6 +849,7 @@
         <members>NewNote</members>
         <members>NewOpportunity</members>
         <members>NewTask</members>
+        <members>Quote.SendEmail</members>
         <members>SendEmail</members>
         <members>Task.Defer</members>
         <members>Task.Defer_0</members>
@@ -610,8 +862,14 @@
         <name>QuickAction</name>
     </types>
     <types>
+        <members>Account.FS_AppInfy</members>
+        <members>Account.FS_Chain</members>
+        <members>Account.FS_Headquarters</members>
+        <members>Merck__c.YT_Rec_Type</members>
         <members>Metric.Completion</members>
         <members>Metric.Progress</members>
+        <members>Opportunity.OPPO_A</members>
+        <members>Opportunity.OPPO_B</members>
         <name>RecordType</name>
     </types>
     <types>
@@ -621,6 +879,10 @@
     <types>
         <members>unfiled$public</members>
         <name>Report</name>
+    </types>
+    <types>
+        <members>Survey_w_Questions_and_Answers</members>
+        <name>ReportType</name>
     </types>
     <types>
         <members>CEO</members>
@@ -670,6 +932,15 @@
         <members>Search</members>
         <members>Security</members>
         <name>Settings</name>
+    </types>
+    <types>
+        <members>ARSF_AccObj1__c.ARSf_sharingCriteriaRule1</members>
+        <members>Merck__c.YT_Sharing_Group</members>
+        <name>SharingCriteriaRule</name>
+    </types>
+    <types>
+        <members>ARSF_AccObj1__c.ARSf_sharingOwnerRule1</members>
+        <name>SharingOwnerRule</name>
     </types>
     <types>
         <members>AccountContactMultiRoles</members>
@@ -732,14 +1003,43 @@
         <name>StandardValueSet</name>
     </types>
     <types>
+        <members>AutorabitLogo</members>
+        <members>NoDeploymentLogo</members>
+        <members>SurveyForce</members>
+        <members>UserGuide</members>
+        <name>StaticResource</name>
+    </types>
+    <types>
         <members>en_GB</members>
         <name>Translations</name>
+    </types>
+    <types>
+        <members>Child__c.ChildVal</members>
+        <members>Illumina__c.IlmnValidationRule2_RSInc2</members>
+        <members>Illumina__c.IlmnValidationRule_RSInc2</members>
+        <members>Illumina__c.IlmnValidationRule_RSInc24</members>
+        <members>Order__c.Discount_Percent</members>
+        <name>ValidationRule</name>
     </types>
     <types>
         <members>Account.Billing</members>
         <members>Campaign.ViewCampaignInfluenceReport</members>
         <members>Case.UpsellCrosssellOpportunity</members>
         <members>Opportunity.DeliveryStatus</members>
+        <members>Opportunity.Scope_Information_Document</members>
         <name>WebLink</name>
+    </types>
+    <types>
+        <members>Illumina__c.IlmnEA_RSInc1</members>
+        <name>WorkflowAlert</name>
+    </types>
+    <types>
+        <members>Child__c.TextTest</members>
+        <name>WorkflowFieldUpdate</name>
+    </types>
+    <types>
+        <members>Child__c.TextTest</members>
+        <members>Illumina__c.IlmnWF_RSInc1</members>
+        <name>WorkflowRule</name>
     </types>
 </Package>

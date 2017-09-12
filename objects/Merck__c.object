@@ -155,11 +155,22 @@
         </valueSet>
     </fields>
     <label>Merck</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
     <nameField>
         <label>Merck Name</label>
         <type>Text</type>
     </nameField>
     <pluralLabel>Mercks</pluralLabel>
+    <recordTypes>
+        <fullName>YT_Rec_Type</fullName>
+        <active>true</active>
+        <description>YT test record type</description>
+        <label>YT Rec Type</label>
+    </recordTypes>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
