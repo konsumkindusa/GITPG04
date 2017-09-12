@@ -24,6 +24,7 @@
         <members>SBnDApexTest1</members>
         <members>ScopeInformationController</members>
         <members>ScopeInformation_test</members>
+        <members>SuntrustApex1</members>
         <members>SurveyAndQuestionController</members>
         <members>SurveyManagerController</members>
         <members>SurveySitesUtil</members>
