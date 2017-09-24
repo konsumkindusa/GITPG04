@@ -3,11 +3,6 @@
     <version>39.0</version>
     <types>
         <members>A0</members>
-        <members>LREngine</members>
-        <members>Test</members>
-        <members>VoyaApex1</members>
-        <members>VoyaApexTest1</members>
-        <members>sampleClass</members>
         <members>ARApexACclass2</members>
         <members>ARApexclass117</members>
         <members>ARApexclass13</members>
@@ -27,6 +22,7 @@
         <members>HomeAwyApexTest1</members>
         <members>HomeAwyApexTest2</members>
         <members>HomeAwyApexTest3</members>
+        <members>LREngine</members>
         <members>OrderFormController</members>
         <members>Ordercontroller_Test</members>
         <members>ReportFinderUtil</members>
@@ -36,12 +32,14 @@
         <members>SurveyManagerController</members>
         <members>SurveySitesUtil</members>
         <members>SurveyTestingUtil</members>
+        <members>Test</members>
         <members>ThreeMApex1</members>
         <members>ThreeMApexTest1</members>
         <members>Todd_CopyToAccount_Tester</members>
         <members>ViewSurveyController</members>
         <members>VoyaApex1</members>
         <members>VoyaApexTest1</members>
+        <members>sampleClass</members>
         <members>skuid__BasicComponent</members>
         <members>skuid__CSVReader</members>
         <members>skuid__ComponentPackDef</members>
@@ -201,6 +199,7 @@
         <members>Opportunity.MainCompetitors__c</members>
         <members>Opportunity.OrderNumber__c</members>
         <members>Opportunity.TrackingNumber__c</members>
+        <members>Suntrust__c.Test__c</members>
         <members>TestObj__c.Agent_Email__c</members>
         <members>TestObj__c.Agent__c</members>
         <members>Test__c.FieldTest__c</members>
@@ -262,6 +261,7 @@
         <members>SocialPersona</members>
         <members>Solution</members>
         <members>StreamingChannel</members>
+        <members>Suntrust__c</members>
         <members>Task</members>
         <members>TestSunrun__c</members>
         <members>Test_DataLoader__c</members>
@@ -337,6 +337,7 @@
         <members>PricebookEntry-Price Book Entry Layout</members>
         <members>Product2-Product Layout</members>
         <members>Solution-Solution Layout</members>
+        <members>Suntrust__c-Suntrust Layout</members>
         <members>Task-Task Layout</members>
         <members>TestSunrun__c-TestSunrun Layout</members>
         <members>User-User Layout</members>
@@ -417,6 +418,7 @@
     <types>
         <members>AR-Profile1</members>
         <members>Admin</members>
+        <members>Admin Clone</members>
         <members>Analytics Cloud Integration User</members>
         <members>Analytics Cloud Security User</members>
         <members>Authenticated Website</members>
