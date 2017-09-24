@@ -554,6 +554,7 @@
         <members>SocialPersona</members>
         <members>Solution</members>
         <members>StreamingChannel</members>
+        <members>Suntrust__c</members>
         <members>SurveyQuestionResponse__c</members>
         <members>SurveyTaker__c</members>
         <members>Survey_Question__c</members>
@@ -700,6 +701,7 @@
         <members>Scope_Poc_Information__c-Scope - Poc Information Layout</members>
         <members>SecondSoundExchange__c-SecondSoundExchange Layout</members>
         <members>Solution-Solution Layout</members>
+        <members>Suntrust__c-Suntrust Layout</members>
         <members>SurveyQuestionResponse__c-Survey Question Answer Layout</members>
         <members>SurveyTaker__c-SurveyTaker Layout</members>
         <members>Survey_Question__c-Survey Question Layout</members>
