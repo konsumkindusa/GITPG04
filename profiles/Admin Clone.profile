@@ -48,6 +48,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Suntrust__c.Test2__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>William_Wolf_Bicycle_Co__c.Bicycle_Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -60,6 +65,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>SBnD__c-SBnD Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Suntrust__c-Suntrust Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>William_Wolf_Bicycle_Co__c-William Wplf Bicycle Co Layout</layout>
