@@ -8,12 +8,7 @@
         <members>ARApexclass13</members>
         <members>ARApexclass15</members>
         <members>ARApexclass31</members>
-        <members>ARDemo1</members>
-        <members>AR_Deploycls</members>
-        <members>AR_Deploycls_Test</members>
-        <members>AutoRBT</members>
         <members>Conflictclass</members>
-        <members>CoverageCls</members>
         <members>DemoTestAcc</members>
         <members>GSurveysController</members>
         <members>GettingStartedController</members>
@@ -279,7 +274,8 @@
         <members>CampaignMember</members>
         <members>Case</members>
         <members>CaseContactRole</members>
-        <members>Configure_Document_Share__c</members>
+        <members>Child__c</members>
+        <members>Conflict1__c</members>
         <members>Contact</members>
         <members>ContactCleanInfo</members>
         <members>ContentVersion</members>
@@ -362,6 +358,8 @@
         <members>Case-Case %28Support%29 Layout</members>
         <members>Case-Case Layout</members>
         <members>CaseClose-Close Case Layout</members>
+        <members>Child__c-Child1 Layout</members>
+        <members>Conflict1__c-Conflict1 Layout</members>
         <members>Contact-Contact %28Marketing%29 Layout</members>
         <members>Contact-Contact %28Sales%29 Layout</members>
         <members>Contact-Contact %28Support%29 Layout</members>
