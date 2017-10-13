@@ -8,7 +8,12 @@
         <members>ARApexclass13</members>
         <members>ARApexclass15</members>
         <members>ARApexclass31</members>
+        <members>ARDemo1</members>
+        <members>AR_Deploycls</members>
+        <members>AR_Deploycls_Test</members>
+        <members>AutoRBT</members>
         <members>Conflictclass</members>
+        <members>CoverageCls</members>
         <members>DemoTestAcc</members>
         <members>GSurveysController</members>
         <members>GettingStartedController</members>
