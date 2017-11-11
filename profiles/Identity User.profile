@@ -90,6 +90,21 @@
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
+        <field>ARSF_AccObj1__c.ARSF_Feid2__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ARSF_AccObj1__c.ARSF_Field1__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ARSF_AccObj1__c.ChiCheckbox1_del__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.AccountNumber</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1368,6 +1383,9 @@
         <field>William_Wolf_Bicycle_Co__c.Bicycle_Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <layoutAssignments>
+        <layout>ARSF_AccObj1__c-ARSF-AccObj1 Layout</layout>
+    </layoutAssignments>
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
     </layoutAssignments>

@@ -18,6 +18,10 @@
                 <behavior>Edit</behavior>
                 <field>ARSF_Feid2__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>ChiCheckbox1_del__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

@@ -27,6 +27,21 @@
     </classAccesses>
     <custom>true</custom>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>ARSF_AccObj1__c.ARSF_Feid2__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ARSF_AccObj1__c.ARSF_Field1__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ARSF_AccObj1__c.ChiCheckbox1_del__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Credit_Cards__c.Credit_Card_Type__c</field>
         <readable>true</readable>
@@ -52,6 +67,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
+        <layout>ARSF_AccObj1__c-ARSF-AccObj1 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Credit_Cards__c-Credit Cards Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -64,6 +82,15 @@
     <layoutAssignments>
         <layout>William_Wolf_Bicycle_Co__c-William Wplf Bicycle Co Layout</layout>
     </layoutAssignments>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>ARSF_AccObj1__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
     <recordTypeVisibilities>
         <default>true</default>
         <recordType>Merck__c.YT_Rec_Type</recordType>

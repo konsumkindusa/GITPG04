@@ -71,6 +71,14 @@
         <type>Email</type>
         <unique>false</unique>
     </fields>
+    <fields>
+        <fullName>ChiCheckbox1_del__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>ChiCheckbox1</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
     <label>ARSF-AccObj1</label>
     <nameField>
         <label>ARSF-AccObj1 Name</label>

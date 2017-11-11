@@ -314,6 +314,7 @@
     <types>
         <members>ARSF_AccObj1__c.ARSF_Feid2__c</members>
         <members>ARSF_AccObj1__c.ARSF_Field1__c</members>
+        <members>ARSF_AccObj1__c.ChiCheckbox1_del__c</members>
         <members>ARSF_Object2__c.ARSFieldTest1__c</members>
         <members>Account.Active__c</members>
         <members>Account.AutorabitExtId__c</members>
