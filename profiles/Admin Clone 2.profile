@@ -48,6 +48,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>ICMARC_Test__c.Num1__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ICMARC_Test__c.Test__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Merck__c.Merck_Picklist__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -71,6 +81,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Credit_Cards__c-Credit Cards Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ICMARC_Test__c-ICMARC Test Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Merck__c-Merck Layout</layout>
