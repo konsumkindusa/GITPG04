@@ -1390,6 +1390,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Walmart__c.Wallpick__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>William_Wolf_Bicycle_Co__c.Bicycle_Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1510,6 +1515,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>UserProvisioningRequest-User Provisioning Request Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Walmart__c-Walmart Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>William_Wolf_Bicycle_Co__c-William Wplf Bicycle Co Layout</layout>
