@@ -73,6 +73,31 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Student__c.First_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Student__c.Last_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Student__c.Lead_Source__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Student__c.Type_of_Student__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Walmart__c.Wallpick__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>William_Wolf_Bicycle_Co__c.Bicycle_Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -83,6 +108,9 @@
         <layout>Credit_Cards__c-Credit Cards Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Deploy_Check__mdt-Deploy Check Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>ICMARC_Test__c-ICMARC Test Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -91,6 +119,12 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>SBnD__c-SBnD Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Student__c-Student Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Walmart__c-Walmart Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>William_Wolf_Bicycle_Co__c-William Wplf Bicycle Co Layout</layout>
@@ -111,6 +145,10 @@
     </recordTypeVisibilities>
     <tabVisibilities>
         <tab>Merck__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Student__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <userLicense>Salesforce</userLicense>

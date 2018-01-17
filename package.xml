@@ -342,6 +342,8 @@
         <members>Contact.Level__c</members>
         <members>Contact.Todd_Source_Value__c</members>
         <members>Credit_Cards__c.Credit_Card_Type__c</members>
+        <members>Deploy_Check__mdt.Deploy_Date_and_Time__c</members>
+        <members>Deploy_Check__mdt.Level_of_deploy__c</members>
         <members>Goal.OrigGoalId__c</members>
         <members>Grand_Child_1__c.Parent__c</members>
         <members>Grand_Parent__c.Child__c</members>
@@ -390,6 +392,10 @@
         <members>Scope_Poc_Information__c.Poc_Start_Date__c</members>
         <members>Scope_Poc_Information__c.Scope__c</members>
         <members>Scope_Poc_Information__c.sign_off_Criteria__c</members>
+        <members>Student__c.First_Name__c</members>
+        <members>Student__c.Last_Name__c</members>
+        <members>Student__c.Lead_Source__c</members>
+        <members>Student__c.Type_of_Student__c</members>
         <members>SuntrustDemo__c.SunPick__c</members>
         <members>Suntrust__c.Test2__c</members>
         <members>SurveyQuestionResponse__c.Response__c</members>
@@ -524,6 +530,7 @@
         <members>Cookie__c</members>
         <members>Credit_Cards__c</members>
         <members>DandBCompany</members>
+        <members>Deploy_Check__mdt</members>
         <members>DuplicateRecordItem</members>
         <members>DuplicateRecordSet</members>
         <members>EmailMessage</members>
@@ -565,6 +572,7 @@
         <members>SocialPersona</members>
         <members>Solution</members>
         <members>StreamingChannel</members>
+        <members>Student__c</members>
         <members>SuntrustDemo__c</members>
         <members>Suntrust__c</members>
         <members>SurveyQuestionResponse__c</members>
@@ -599,6 +607,7 @@
         <members>Grand_Sibling_2__c</members>
         <members>Merck__c</members>
         <members>Parent__c</members>
+        <members>Student__c</members>
         <members>SurveyTaker__c</members>
         <members>Survey__c</members>
         <name>CustomTab</name>
@@ -678,6 +687,7 @@
         <members>Cookie__c-Cookie Layout</members>
         <members>Credit_Cards__c-Credit Cards Layout</members>
         <members>DandBCompany-D%26B Company Layout</members>
+        <members>Deploy_Check__mdt-Deploy Check Layout</members>
         <members>DuplicateRecordSet-Duplicate Record Set Layout</members>
         <members>EmailMessage-Email Message Layout</members>
         <members>Event-Event Layout</members>
@@ -717,6 +727,7 @@
         <members>Scope_Poc_Information__c-Scope - Poc Information Layout</members>
         <members>SecondSoundExchange__c-SecondSoundExchange Layout</members>
         <members>Solution-Solution Layout</members>
+        <members>Student__c-Student Layout</members>
         <members>SuntrustDemo__c-SuntrustDemo Layout</members>
         <members>Suntrust__c-Suntrust Layout</members>
         <members>SurveyQuestionResponse__c-Survey Question Answer Layout</members>
@@ -793,6 +804,7 @@
         <members>Product2.AllProducts</members>
         <members>Solution.AllReviewedSolutions</members>
         <members>Solution.AllUnreviewedSolutions</members>
+        <members>Student__c.All</members>
         <members>SurveyTaker__c.All</members>
         <members>Survey__c.standard_view</members>
         <members>User.ActiveUsers</members>
@@ -971,6 +983,7 @@
         <name>SharingOwnerRule</name>
     </types>
     <types>
+        <members>Student__c</members>
         <members>Walmart__c</members>
         <name>SharingRules</name>
     </types>
@@ -1067,11 +1080,15 @@
     </types>
     <types>
         <members>Child__c.TextTest</members>
+        <members>Student__c.Lead_source_check_field_2</members>
+        <members>Student__c.update_Lead_source_field</members>
         <name>WorkflowFieldUpdate</name>
     </types>
     <types>
         <members>Child__c.TextTest</members>
         <members>Illumina__c.IlmnWF_RSInc1</members>
+        <members>Student__c.Lead source field check 2</members>
+        <members>Student__c.update Lead source</members>
         <name>WorkflowRule</name>
     </types>
     <version>40.0</version>
