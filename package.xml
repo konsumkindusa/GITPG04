@@ -257,6 +257,7 @@
     </types>
     <types>
         <members>SampleTrigger</members>
+        <members>SetPromptContactTime</members>
         <members>Todd_CopyToAccount</members>
         <members>primarycheckonScope</members>
         <members>updateQuoteStatus</members>
@@ -358,6 +359,8 @@
         <members>Lead.NumberofLocations__c</members>
         <members>Lead.Primary__c</members>
         <members>Lead.ProductInterest__c</members>
+        <members>Lead.Prompt_contact_by__c</members>
+        <members>Lead.Prompt_contact_status__c</members>
         <members>Lead.SICCode__c</members>
         <members>Merck__c.Merck_Picklist__c</members>
         <members>Merck__c.YT_List_of_Values__c</members>
@@ -1081,6 +1084,8 @@
     </types>
     <types>
         <members>Child__c.TextTest</members>
+        <members>Lead.Danger</members>
+        <members>Lead.Not_Contacted_Promptly</members>
         <members>Student__c.Lead_source_check_field_2</members>
         <members>Student__c.update_Lead_source_field</members>
         <name>WorkflowFieldUpdate</name>
@@ -1088,6 +1093,7 @@
     <types>
         <members>Child__c.TextTest</members>
         <members>Illumina__c.IlmnWF_RSInc1</members>
+        <members>Lead.Prompt Contact Checker</members>
         <members>Student__c.Lead source field check 2</members>
         <members>Student__c.update Lead source</members>
         <name>WorkflowRule</name>
