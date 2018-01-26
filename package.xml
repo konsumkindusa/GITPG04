@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>40.0</version>
+    <version>39.0</version>
     <types>
         <members>A0</members>
         <members>ARApexACclass2</members>
@@ -514,5 +514,25 @@
         <members>Case.UpsellCrosssellOpportunity</members>
         <members>Opportunity.DeliveryStatus</members>
         <name>WebLink</name>
+    </types>
+    <types>
+        <members>Illumina__c.IlmnEA_RSInc1</members>
+        <name>WorkflowAlert</name>
+    </types>
+    <types>
+        <members>Child__c.TextTest</members>
+        <members>Lead.Danger</members>
+        <members>Lead.Not_Contacted_Promptly</members>
+        <members>Student__c.Lead_source_check_field_2</members>
+        <members>Student__c.update_Lead_source_field</members>
+        <name>WorkflowFieldUpdate</name>
+    </types>
+    <types>
+        <members>Child__c.TextTest</members>
+        <members>Illumina__c.IlmnWF_RSInc1</members>
+        <members>Lead.Prompt Contact Checker</members>
+        <members>Student__c.Lead source field check 2</members>
+        <members>Student__c.update Lead source</members>
+        <name>WorkflowRule</name>
     </types>
 </Package>
