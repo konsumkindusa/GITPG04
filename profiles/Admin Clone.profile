@@ -112,6 +112,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>TalentRover__c.TalentPick__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Walmart__c.Wallpick__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -147,6 +152,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Suntrust__c-Suntrust Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TalentRover__c-TalentRover Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Walmart__c-Walmart Layout</layout>

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>39.0</version>
+<?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>A0</members>
         <members>ARApexACclass2</members>
@@ -428,6 +426,7 @@
         <members>Survey__c.URL__c</members>
         <members>Survey__c.thankYouLink__c</members>
         <members>Survey__c.thankYouText__c</members>
+        <members>TalentRover__c.TalentPick__c</members>
         <members>TestSunrun__c.SunRunCheckBox__c</members>
         <members>Test_DataLoader__c.testField2__c</members>
         <members>Test_DataLoader__c.tf1__c</members>
@@ -585,6 +584,7 @@
         <members>SurveyTaker__c</members>
         <members>Survey_Question__c</members>
         <members>Survey__c</members>
+        <members>TalentRover__c</members>
         <members>Task</members>
         <members>TestSunrun__c</members>
         <members>Test_DataLoader__c</members>
@@ -740,6 +740,7 @@
         <members>SurveyTaker__c-SurveyTaker Layout</members>
         <members>Survey_Question__c-Survey Question Layout</members>
         <members>Survey__c-Survey Layout</members>
+        <members>TalentRover__c-TalentRover Layout</members>
         <members>Task-Task Layout</members>
         <members>TestSunrun__c-TestSunrun Layout</members>
         <members>ThreeM__c-Voya Layout</members>
@@ -990,6 +991,7 @@
     </types>
     <types>
         <members>Student__c</members>
+        <members>TalentRover__c</members>
         <members>Walmart__c</members>
         <name>SharingRules</name>
     </types>
@@ -1100,4 +1102,5 @@
         <members>Student__c.update Lead source</members>
         <name>WorkflowRule</name>
     </types>
+    <version>40.0</version>
 </Package>
