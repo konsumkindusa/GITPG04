@@ -129,6 +129,9 @@
         <layout>ARSF_AccObj1__c-ARSF-AccObj1 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>CITalent__c-CITalent Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Credit_Cards__c-Credit Cards Layout</layout>
     </layoutAssignments>
     <layoutAssignments>

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>39.0</version>
+<?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>A0</members>
         <members>ARApexACclass2</members>
@@ -994,6 +992,7 @@
         <name>SharingOwnerRule</name>
     </types>
     <types>
+        <members>CITalent__c</members>
         <members>Student__c</members>
         <members>TalentRover__c</members>
         <members>Walmart__c</members>
@@ -1106,4 +1105,5 @@
         <members>Student__c.update Lead source</members>
         <name>WorkflowRule</name>
     </types>
+    <version>40.0</version>
 </Package>
