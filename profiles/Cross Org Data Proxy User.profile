@@ -1538,6 +1538,9 @@
         <layout>SBnD__c-SBnD Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>ScorecardAssociation-Scorecard Association Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>SecondSoundExchange__c-SecondSoundExchange Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
