@@ -2,10 +2,139 @@
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <custom>true</custom>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>ARSF_AccObj1__c.ARSF_Feid2__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ARSF_AccObj1__c.ARSF_Field1__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ARSF_AccObj1__c.ChiCheckbox1_del__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Credit_Cards__c.Credit_Card_Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Hughes__c.Hughespick__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ICMARC_Test__c.Num1__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Suntrust__c.Test__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.Prompt_contact_by__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.Prompt_contact_status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Merck__c.Merck_Picklist__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Merck__c.YT_List_of_Values__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>SBnD__c.SBnD_Picklist__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Student__c.First_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Student__c.Last_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Student__c.Lead_Source__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Student__c.Type_of_Student__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Suntrust__c.Test2__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>TalentRover__c.TalentPick__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Walmart__c.Wallpick__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>William_Wolf_Bicycle_Co__c.Bicycle_Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <layoutAssignments>
+        <layout>ARSF_AccObj1__c-ARSF-AccObj1 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CITalent__c-CITalent Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Credit_Cards__c-Credit Cards Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Deploy_Check__mdt-Deploy Check Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Hughes__c-Hughes Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ICMARC_Test__c-ICMARC Test Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Lead-Lead Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Merck__c-Merck Layout</layout>
+        <recordType>Merck__c.YT_Rec_Type</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBnD__c-SBnD Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ScorecardAssociation-Scorecard Association Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Student__c-Student Layout</layout>
+    </layoutAssignments>
     <layoutAssignments>
         <layout>Suntrust__c-Suntrust Layout</layout>
     </layoutAssignments>
