@@ -893,6 +893,11 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Hughes__c.Hughespick__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>ICMARC_Test__c.Num1__c</field>
         <readable>true</readable>
@@ -1496,6 +1501,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Global-Global Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Hughes__c-Hughes Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>ICMARC_Test__c-ICMARC Test Layout</layout>
